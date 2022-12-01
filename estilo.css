@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(19, 19, 21);
+}
+
+header {
+    background-color: rgb(11, 84, 239);
+    border-top: solid 5px rgb(19, 19, 21);
+    border-bottom: solid 1px rgb(25, 25, 173);
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+main{
+    width: 380px;
+    margin: 40px auto;
+}
+
+.label {
+    margin-bottom: 10px;
+    display: block;
+    color: rgb(186, 185, 185);
+}
+
+input,
+button {
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.input {
+    width: 100%;
+    background-color: rgb(25, 25, 29);
+    border: solid 1px rgb(40, 40, 43);
+    font-size: 1rem;
+    color: white;
+}
+
+#botoes {
+    display: flex;
+    justify-content: space-between
+}
+
+#btnCalcular,
+#btnLimpar {
+    width: 50%;
+    border: solid 1px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    padding: 15px 0;
+}
+
+#btnCalcular {
+    margin-right: 20px;
+    background-color: rgb(11, 84, 239);
+    border-color: rgb(60, 117, 239);
+}
+#btnLimpar{
+    background-color: rgb(44, 44, 51);
+    border: solid 1px rgb(70, 70, 75);
+}
+
+label[for="inputImc"] {
+    font-size: 1rem;
+}
+
+#inputImc {
+    font-size: 1.2rem;
+    width: 30%;
+    font-weight: bold;
+    border-color: rgb(223, 222, 222);
+    text-align: center;
+}
+
+.esconder {
+    display: none;
+}
+
+#resultadoImc {
+    padding: 10px 0;
+    border-top: solid 1px rgb(223, 222, 222);
+    border-bottom: solid 1px rgb(223, 222, 222);
+}
+
+#resultado {
+    width: 100%;
+    margin-bottom: 40px;
+    float: left;
+}
+
+/* Tabela da classificação */
+
+#resultado {
+    background-color: rgb(223, 223, 249);
+    border: solid 1px rgb(36, 36, 36);
+    color: rgb(31, 31, 31);
+}
+#resultado .linhaTbl {
+    background-color: rgb(197, 197, 227);
+}
+#resultado th {
+    color: rgb(10, 10, 10);
+    font-weight: normal;
+    text-transform: uppercase;
+}
+#resultado thead th{
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    background-color: rgb(25, 25, 29);
+    border: solid 1px rgb(40, 40, 43);
+    border-collapse: collapse;
+    color: rgb(184, 184, 184);
+    text-align: center;
+}
+
+.linhaTbl {
+    background-color: rgb(16, 16, 19);
+}
+
+th {
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+td,
+th {
+    padding: 10px;
+}
+
+footer{
+border-top: solid 1px rgb(30, 30, 30);
+border-bottom: solid 5px rgb(11, 84, 239);
+
+}
+footer p {
+    color: #999;
+    text-align: center;
+    font-size: .9em;
+    padding: 20px 0;
+}
